@@ -12,7 +12,7 @@
 	</head>
 	
 	<body>
-		<header>
+		<header class="header">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-md-12">
@@ -24,25 +24,30 @@
 		</header>
 
 		<div class="main">
-			<div class="row">
-				<form class='form'>
-					<div class="col-xs-8 col-md-10">
-						<input id="comment" type="text" placeholder="Write comment here"></input>
-						
-					</div>
+			<div class="container">
+				<div class="row">
+					<form class='form'>
+						<div class="col-xs-8 col-md-10">
+							<input id="comment" type="text" placeholder="Write comment here"></input>
+							
+						</div>
 
-					<div class="col-xs-4 col-md-2">
-						<button type="submit" class="btn">post</button>
-					</div>
+						<div class="col-xs-4 col-md-2">
+							<button type="submit" class="btn">post</button>
+						</div>
 
-				</form>
+					</form>
+				</div>
+
+
+
+				<ul class="comments" id="comments">
+						<li>#IT WORKS</li>
+						<li>Everytime</li>
+				</ul>
+				
+
 			</div>
-
-
-			<ul class="comments" id="comments">
-				<li>#IT WORKS</li>
-				<li>Everytime</li>
-			</ul>
 		</div>
 
 		<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
