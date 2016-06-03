@@ -26,6 +26,11 @@ form input {
 	transition: background 5s, border-left 5s;
 }
 
+form input {
+	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+
 form input:focus {
 	background: #fff;
 	border-left: 2px solid #000;
