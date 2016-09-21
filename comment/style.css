@@ -23,12 +23,11 @@ form input {
 	padding: 20px;
 	width: 100%;
 
-	transition: background 5s, border-left 5s;
+	transition: background 3s, border-left 3s;
 }
 
-form input {
-	overflow: hidden;
-  	text-overflow: ellipsis;
+form input[name="commit"] {
+	transition: background 1s, border-left 1s;
 }
 
 form input:focus {
@@ -38,7 +37,7 @@ form input:focus {
 	/*outline: none;*/		
 }
 
-button.btn {
+input[name="commit"] {
 	background: transparent;
 	border: none;
 	color: #00f2af;
@@ -47,13 +46,15 @@ button.btn {
 	font-size: 36px;
 
 	padding: 20px 24px;
+
 }
 
-button.btn:hover {
+input[name="commit"]:hover {
 	background: #00f28f;
 	color: #fff;
 
 	transition: color 1s, background 1s ;
+	
 }
 
 .comments {
