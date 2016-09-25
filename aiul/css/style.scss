@@ -1,0 +1,54 @@
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#ifdalogo {
+	height: 50px;
+	width: auto;
+	margin-top: 5px;
+
+}
+
+@media( max-width: 600px) {
+	#logo-container img{
+		height: 50px;
+		margin-top: 3px;
+	}
+}
+
+nav ul{
+	margin-left: 70px;
+}
+
+nav li a {
+	color: white;
+	margin-left: 15px;
+
+}
+
+.material-icons {
+	color: white;
+}
+
+footer li {
+	list-style-type: circle;
+	list-style-position: inside;
+	margin-left: 30px;
+}
+
+td {
+	padding: 5px 5px;
+}
+
+th {
+	padding: 10px 5px;
+}
+
+.table-title {
+	font-size: 16px;
+}
+
+
