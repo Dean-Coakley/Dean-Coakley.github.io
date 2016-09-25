@@ -1,9 +1,14 @@
+$primary-green: #4CAF50;
+
 .icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
+  	padding: 0 15px;
+
+  	.material-icons {
 	font-size: inherit;
+	color: white;
+	}
 }
+
 
 #ifdalogo {
 	height: 50px;
@@ -21,34 +26,42 @@
 
 nav ul{
 	margin-left: 70px;
-}
 
-nav li a {
+	li a {
 	color: white;
 	margin-left: 15px;
 
+	}
 }
 
-.material-icons {
-	color: white;
-}
+footer {
+	li {
+	list-style-type: disc;
+	list-style-position: outside;
+	margin-left: 40px;
+	}
 
-footer li {
-	list-style-type: circle;
-	list-style-position: inside;
-	margin-left: 30px;
-}
+} 
 
-td {
+.conf td {
 	padding: 5px 5px;
 }
 
 th {
-	padding: 10px 5px;
+	padding: 8px 5px;
 }
 
 .table-title {
 	font-size: 16px;
+}
+
+.record {
+	padding-top: 5px;
+}
+
+i.fa {
+	margin-right: 15px;
+	color: $primary-green;
 }
 
 

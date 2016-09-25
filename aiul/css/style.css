@@ -1,8 +1,8 @@
 .icon-block {
   padding: 0 15px; }
-
-.icon-block .material-icons {
-  font-size: inherit; }
+  .icon-block .material-icons {
+    font-size: inherit;
+    color: white; }
 
 #ifdalogo {
   height: 50px;
@@ -15,26 +15,29 @@
     margin-top: 3px; } }
 nav ul {
   margin-left: 70px; }
-
-nav li a {
-  color: white;
-  margin-left: 15px; }
-
-.material-icons {
-  color: white; }
+  nav ul li a {
+    color: white;
+    margin-left: 15px; }
 
 footer li {
-  list-style-type: circle;
-  list-style-position: inside;
-  margin-left: 30px; }
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 40px; }
 
-td {
+.conf td {
   padding: 5px 5px; }
 
 th {
-  padding: 10px 5px; }
+  padding: 8px 5px; }
 
 .table-title {
   font-size: 16px; }
+
+.record {
+  padding-top: 5px; }
+
+i.fa {
+  margin-right: 15px;
+  color: #4CAF50; }
 
 /*# sourceMappingURL=style.css.map */
