@@ -19,7 +19,7 @@ nav ul {
     color: white;
     margin-left: 15px; }
 
-footer li {
+footer li, main ul li {
   list-style-type: disc;
   list-style-position: outside;
   margin-left: 40px; }
