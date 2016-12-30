@@ -1,141 +1,83 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Dean Coakley</title>
-   </head>
-   <body>
-      <header>
-         <nav class="purple" role="navigation">
-            <div class="nav-wrapper container">
-               <ul class="left hide-on-med-and-down">
-                  <li><a href="#about">About me</a></li>
-                  <li><a href="#education">Education</a></li>
-                  <li><a href="#work-exp">Work Experience</a></li>
-                  <li><a href="#projects">Projects</a></li>
-               </ul>
-               <ul id="nav-mobile" class="side-nav">
-                  <li><a href="#about">About me</a></li>
-                  <li><a href="#education">Education</a></li>
-                  <li><a href="#work-exp">Work Experience</a></li>
-                  <li><a href="#projects">Projects</a></li>
-               </ul>
-               <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-            </div>
-         </nav>
-      </header>
-      <div class="container">
-         <div class="row">
-            <div class="col s12">
-               <h2 id="about">
-               About me</h1>
-               <p>My name is Dean Coakley. I am currently in 2nd year of studying Software Development in Cork Institute of Technology. I have an interest in developing large scale software with a great impact int he industry. I love programming in Python and Golang and I have an adept interest in Cloud Computing as well as the security procedures that come along with that.</p>
-            </div>
-         </div>
-         <div class="row">
-            <h2 id="education">Education</h2>
-            <div class="col s6">
-               <section class="card border">
-                  <div class="card-content">
-                     <div class="img-wrapper"><img height="100px" src="images/cit.jpg"></div>
-                     <span class="card-title">Software Development (2015-2019)<br > &ndash;<span class="sr-only"> Cork Institute of Technology</span></span>
-                     <p> <a href="http://www.cit.ie/course/CR106" target="_blank">Read more about this course</a>.</p>
-                     <p>Currently in Second year of studying Software development in Cork Institute of Technology. Currently holding a first class honours.</p>
-                     <ul>
-                        <li>
-                           Achieved First Class Honours in 1st Year:
-                           <ul>
-                              <li>96% &ndash; Java programming</li>
-                              <li>95% &ndash; Web Development</li>
-                           </ul>
-                        </li>
-                     </ul>
-                  </div>
-               </section>
-            </div>
-            <div class="col s6">
-               <section class="card border">
-                  <div class="card-content">
-                     <div class="img-wrapper"><img height="100px" src="images/ucc.jpg"></div>
-                     <span class="card-title">Munster Programming Training (2013)<br > &ndash;<span class="sr-only"> University College Cork</span></span>
-                     <p> <a href="http://multimedia.ucc.ie/Public/training/" target="_blank">Read more about this course</a>.</p>
-                     <p>I completed a course that introduced me to C programming and Web Development</p>
-                     <h5>On this course I learned</h5>
-                     <ul>
-                        <li>C programming</li>
-                        <li>Web Development</li>
-                     </ul>
-                       
-                  </div>
-               </section>
-            </div>
-         </div>
-         <div class="row">
-            <div class="col s12">
-               <h2 id="work-exp">Work Experience</h2>
-               <section class="card border">
-                  <div class="card-content">
-                     <div class="img-wrapper"><img height="100px" src="images/granite.jpg"></div>
-                     <span class="card-title">Granite Digital (June 2016 - August 2016)<br ></span>
-                     <p> <a href="http://www.granite.ie/" target="_blank">Read more about this course</a>.</p>
-                     <p>I completed a course that introduced me to C programming and Web Development</p>
-                     <h5>On this course I learned</h5>
+---
+layout: blog
+title: index
+permalink: /
+---
 
-                     <ul>
-                        <li>HTML &amp; CSS</li>
-                        <li>ColdFusion</li>
-                        <li>MYSQL/SQL</li>
-                        <li>Javascript/JQuery</li>
-                     </ul>
-                    
-                  </div>
-               </section>
+<div class="navbar-wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
             </div>
-         </div>
-         <div class="row myprojects">
-            <div class="col s12">
-               <h2 id="projects">Projects</h2>
-               <section>
-                  <h4>Openstack deployment &ndash; Cork Internet eXchange</h4>
-                  <p>At <a href="www.cix.ie" target="_blank">Cork Internet eXchange</a> I worked on a <a href="hello">Openstack</a> install with <a href="hello">Ceph</a> storage on a number of servers. This was to support their Infrastructure As A Service(IaaS) that they have been developing.
-                  </p>
-                  <ul>
-                     <li>Prepared servers: Reset bios, replaced broken NICs, installed and configured Ubuntu Server edition.</li>
-                  </ul>
-               </section>
-               <br> 
-               <section>
-                  <h4>Comments On Rails</h4>
-                  <p>This is one of my own projects where I tried to make a comment/forum type website built on Ruby On Rails.<br >
-                     I wanted to design this project to work well and gain experience with Ruby On Rails. This will help with my planned later project to have a chat client in the web browser with a login system.
-                  </p>
-                  <h5>Goals for this project</h5>
-                  <ul>
-                     <li>Learn about MVC</li>
-                     <li>Learn Ruby On Rails syntax</li>
-                     <li>Develop a comment system with persistent storage.</li>
-                  </ul>
-               </section>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right" id="i18_navbar">
+                {% for section in site.data.landing %}
+                    <li>
+                      <a class="page-scroll" href="#{{ section.id }}">
+                        <span data-i18n="{{ section.i18n }}">{{ section.name }}</span>
+                      </a>
+                    </li>
+                {% endfor %}
+
+                {% for language in site.languages %}
+                  <li>
+                    <a id="set_lang_{{ language.locale }}" class="btn btn-sm set_{{ language.locale }}" data-locale="{{ language.locale }}">
+                      <img src="{{ language.flag | prepend: site.baseurl }}" height="16px" width="16px">
+                    </a>
+                  </li>
+                {% endfor %}
+                </ul>
             </div>
-         </div>
-      </div>
-      <footer class="page-footer pink">
-         <div class="footer-copyright purple">
+        </div>
+    </nav>
+</div>
+<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#inSlider" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
             <div class="container">
-               <p>Website developed by Dean Coakley</p>
+                <div class="carousel-caption">
+                </div>
+                <div class="carousel-image wow zoomIn">
+                    <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
+                </div>
             </div>
-         </div>
-      </footer>
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-      <script type="text/javascript" src="js/custom.js"></script>
-   </body>
-</html>
+            <!-- Set background for slide in css -->
+            <div class="header-back one"></div>
+        </div>
+        <div class="item">
+            <div class="container">
+                <div class="carousel-caption blank">
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back two"></div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+{% for section in site.data.landing %}
+  {% assign loopindex = forloop.index | modulo: 2 %}
+  <section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0px;">
+    {% include sections/{{section.tpl}} %}
+  </section>
+{% endfor %}
+<iframe src="http://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe>
