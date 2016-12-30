@@ -3,14 +3,29 @@
     detail: Granite Digital
     i18n: granite_title
   desc:
-    detail: Now I am in Nextcode and develop website with Python code for genetic analysis.
+    detail: I worked with the ColdFusion backend framework to integrate with a custom built CMS. Working at Granite I used HTML, CSS, SASS, JQuery, Javascript, MySQL and Git.
     i18n: granite_desc
   date:
     detail: June 2016 - August 2016
     i18n: granite_date
   job:
     detail: Junior Frontend Developer
-    i18n: nextcode_job
+    i18n: granite_job
+  icon: fa-plus-square
+
+- name:
+    detail: Cork Internet eXchange
+    i18n: cix_title
+  desc:
+    detail: At CIX I shadowed a CTO and Senior Software Developer over a period of 3 months assisting in the install of a Openstack cloud. This cloud was to provided a IaaS product. 
+    Configured servers, solidified linux knowedge, wrote basic bash and python scripts and became familiar with the Openstack technology
+    i18n: cix_desc
+  date:
+    detail: June 2016 - August 2016
+    i18n: cix_date
+  job:
+    detail: Cloud/Openstack Install Intern
+    i18n: cix_job
   icon: fa-plus-square
 
 
@@ -19,7 +34,7 @@
     i18n: college
   desc:
     detail: Currently in year 2 of studying Software Development
-    i18n: college_des
+    i18n: college_desc
   date:
     detail: Sept 2015 - Sept 2019(Expected approximate graduation date)
     i18n: college_date
