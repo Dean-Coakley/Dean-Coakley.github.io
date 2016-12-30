@@ -17,8 +17,7 @@
     detail: Cork Internet eXchange
     i18n: cix_title
   desc:
-    detail: At CIX I shadowed a CTO and Senior Software Developer over a period of 3 months assisting in the install of a Openstack cloud. This cloud was to provided a IaaS product. 
-    Configured servers, solidified linux knowedge, wrote basic bash and python scripts and became familiar with the Openstack technology
+    detail: At CIX I shadowed a CTO and Senior Software Developer over a period of 3 months assisting in the install of a Openstack cloud. This cloud was to provided a IaaS product. Configured servers, solidified linux knowedge, wrote basic bash and python scripts and became familiar with the Openstack technology
     i18n: cix_desc
   date:
     detail: June 2016 - August 2016
