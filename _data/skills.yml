@@ -17,10 +17,10 @@
 - name: PHP
   percentage: 70
 
-- name: Ruby On Rails
+- name: Ruby/Ruby On Rails
   percentage: 45
-  
-- name: AngularJS
+
+- name: Golang
   percentage: 20
 
 
