@@ -1,12 +1,20 @@
 # projects section data
 - name: 'MazeGenerator'
-  i18n: 'mazegenerator'
   url: '/Dean-Coakley/MazeGenerator'
   img: 'static/img/landing/Maze.png'
-  desc: 'MazeGenerator is a java program that features a krukals algorithm with a union find data structure to generate a perfect maze. (Only one solution exists)'
+  desc: 'MazeGenerator is a java program that features a krukals algorithm with a union find data structure to generate a perfect maze. (Only one solution to the maze exists)'
 
 - name: 'Shnake'
-  i18n: 'shnake'
   url: '/Dean-Coakley/Shnake'
-  img: 'static/img/landing/jekyll.png'
+  img: 'static/img/landing/shnake.png'
   desc: "Shnake is a classic implementation of the snake game popularly found on older Nokia phones. It is built in Python 2.7 using the Pygame library."
+
+- name: 'PhotoFiltreLX'
+  url: '/Dean-Coakley/PhotoFiltreLX'
+  img: 'static/img/landing/pflx.jpg'
+  desc: "PhotoFiltreLX is an open source crossplatform image editor that I have made a number of contributions to. It is built using C++ and QT."
+
+- name: 'CommentsOnRails'
+  url: '/Dean-Coakley/CommentsOnRails'
+  img: 'static/img/landing/comments.png'
+  desc: "Comments On Rails is a program I built as a simple forum web app. No sections just a post area, built with Ruby On Rails as the name suggests."
