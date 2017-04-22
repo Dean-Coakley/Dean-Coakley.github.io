@@ -4,17 +4,17 @@
   img: 'static/img/landing/Maze.png'
   desc: 'MazeGenerator is a java program that features a krukals algorithm with a union find data structure to generate a perfect maze. (Only one solution to the maze exists)'
 
-- name: 'Snake'
-  url: '/Dean-Coakley/Shnake'
+- name: 'Snake-Pygame'
+  url: '/Dean-Coakley/Snake-Pygame'
   img: 'static/img/landing/shnake.png'
-  desc: "Shnake is a classic implementation of the snake game popularly found on older Nokia phones. It is built in Python 2.7 using the Pygame library."
+  desc: "Snake-Pygame is a classic implementation of the snake game popularly found on older Nokia phones. It is built in Python 2.7 using the Pygame library"
 
-- name: 'PhotoFiltreLX'
-  url: '/Dean-Coakley/PhotoFiltreLX'
+- name: 'CorkJs'
+  url: '/Dean-Coakley/CorkJs'
   img: 'static/img/landing/pflx.jpg'
-  desc: "PhotoFiltreLX is an open source crossplatform image editor that I have made a number of contributions to. It is built using C++ and QT."
+  desc: "I wrote 95% of the javascript that powers the CorkJs website. It pulls data via an Ajax query from the meetup api in relation to the next meetup"
 
 - name: 'CommentsOnRails'
   url: '/Dean-Coakley/CommentsOnRails'
   img: 'static/img/landing/comments.png'
-  desc: "Comments On Rails is a program I built as a simple forum web app. No sections just a post area, built with Ruby On Rails as the name suggests."
+  desc: "Comments On Rails is a program I built as a simple forum web app. No sections just a post area, built with Ruby On Rails as the name suggests"

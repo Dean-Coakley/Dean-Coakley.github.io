@@ -10,21 +10,22 @@
   percentage: 85
 
 - name: Python
-  percentage: 75
+  percentage: 80
 
 - name: SASS
   percentage: 70
 
-- name: Docker
+- name: Golang
+  percentage: 70
+
+- name: JavaScript
   percentage: 60
 
-- name: PHP
+- name: Docker
   percentage: 50
 
-- name: Golang
-  percentage: 30
+- name: PHP
+  percentage: 40
 
 - name: Ruby/Ruby On Rails
   percentage: 20
-
-
